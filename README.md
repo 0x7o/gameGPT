@@ -7,9 +7,9 @@ Trained ruGPT3 on Russian "Choose Your Own Adventure" stories
 |
 [Pretraining Large version](https://huggingface.co/0x7194633/gameGPT-large)
 
-V | Params | Sise |
+Version  | Sise |
 --- | --- | --- |
-Seconds | 301 | 283 | 
+[gameGPT-small](https://huggingface.co/0x7194633/gameGPT-small) | 526 MB | 
 
 [habr article](https://habr.com/ru/post/599715/)
 
