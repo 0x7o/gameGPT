@@ -21,21 +21,20 @@ pip install transformers
 ```
 
 ```python
-from transformers import GPT2LMHeadModel
-from transformers import GPT2Tokenizer
+from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
 model_name = '0x7194633/gameGPT-medium'
-model = TFGPT2LMHeadModel.from_pretrained(model_name, from_pt=True)
 tokenizer = GPT2Tokenizer.from_pretrained(model_name)
+model = GPT2LMHeadModel.from_pretrained(model_name, pad_token_id=tokenizer.eos_token_id)
 
 # Install a Nvidia gpu if necessary
-model.cuda()
+#model.cuda()
 
 def generate(text, **kwargs):
-    input_ids = tokenizer.encode(text, return_tensors='tf')
-    out = model.generate(input_ids.cuda(), **kwargs) # or no cuda
-    return tok.decode(out[0])
+    input_ids = tokenizer.encode(text, return_tensors='pt')
+    out = model.generate(input_ids, **kwargs)
+    return tokenizer.decode(out[0])
     
 act = '> Где я нахожусь?'
-print(generate(act, max_length=200, top_p=0.7, temperature=1.0))
+print(generate(act, max_length=100, top_p=0.7, temperature=1.0))
 ```
