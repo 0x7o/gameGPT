@@ -17,7 +17,7 @@ Example usage:
 [![Try Model Training In Colab!](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/0x7o/text2keywords/blob/main/example/keyT5_use.ipynb)
 
 ```
-pip install transformers
+pip install torch numpy transformers
 ```
 
 ```python
