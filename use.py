@@ -14,7 +14,7 @@ def generate(text, **kwargs):
   inpt = tokenizer.encode(text, return_tensors="pt")
   if torch.cuda.is_available():
     out = model.generate(inpt.cuda(), **kwargs)
-   else:
+  else:
     out = model.generate(inpt, **kwargs)
   return tokenizer.decode(out[0])
   
