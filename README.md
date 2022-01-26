@@ -3,7 +3,7 @@
 
 Trained ruGPT3 on Russian "Choose Your Own Adventure" stories
 
-[{ HABR }](https://habr.com/ru/post/599715/)[{ WEBSITE }](https://0x7o.link/gamegpt/)
+[{ HABR }](https://habr.com/ru/post/599715/)[{ DEMO-GAME }](https://gamio.ru)
 
 Version  | Sise |
 --- | --- |
