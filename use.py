@@ -9,15 +9,14 @@ model = GPT2LMHeadModel.from_pretrained(model_name)
 
 if torch.cuda.is_available():
   model.cuda()
-  def generate(text, **kwargs):
-    inpt = tokenizer.encode(text, return_tensors="pt")
+  
+def generate(text, **kwargs):
+  inpt = tokenizer.encode(text, return_tensors="pt")
+  if torch.cuda.is_available():
     out = model.generate(inpt.cuda(), **kwargs)
-    return tokenizer.decode(out[0])
-else:
-  def generate(text, **kwargs):
-    inpt = tokenizer.encode(text, return_tensors="pt")
+   else:
     out = model.generate(inpt, **kwargs)
-    return tokenizer.decode(out[0])
+  return tokenizer.decode(out[0])
   
 
 act = "Тест"
