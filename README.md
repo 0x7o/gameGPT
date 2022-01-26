@@ -1,5 +1,6 @@
 # gameGPT
 Trained ruGPT3 on Russian "Choose Your Own Adventure" stories
+[![use.py Test](https://github.com/0x7o/gameGPT/actions/workflows/use_test.yml/badge.svg)](https://github.com/0x7o/gameGPT/actions/workflows/use_test.yml)
 
 Version  | Sise |
 --- | --- |
