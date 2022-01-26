@@ -1,7 +1,7 @@
 # gameGPT
 [![use.py Test](https://github.com/0x7o/gameGPT/actions/workflows/use_test.yml/badge.svg)](https://github.com/0x7o/gameGPT/actions/workflows/use_test.yml)
 
-[{habr article}](https://habr.com/ru/post/599715/)[{site}](https://0x7o.link/gamegpt/)
+[{ HABR }](https://habr.com/ru/post/599715/)[{ WEBSITE }](https://0x7o.link/gamegpt/)
 
 Trained ruGPT3 on Russian "Choose Your Own Adventure" stories
 
