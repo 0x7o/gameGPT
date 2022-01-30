@@ -1,6 +1,4 @@
-import numpy as np
 import torch
-import random
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
 model_name = '0x7194633/gameGPT-large'
