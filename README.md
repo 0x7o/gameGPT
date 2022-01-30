@@ -9,7 +9,7 @@ Version  | Sise | Loss | Perplexity |
 --- | --- | --- | --- |
 [gameGPT-small](https://huggingface.co/0x7194633/gameGPT-small) | 526 MB | 2.15 | 5.2 |
 [gameGPT-medium](https://huggingface.co/0x7194633/gameGPT-medium) | 1.42 GB | 1.4 | 3.1 |
-[gameGPT-large](https://huggingface.co/0x7194633/gameGPT-large) | 2.93 GB | 5 | 5 |
+[gameGPT-large](https://huggingface.co/0x7194633/gameGPT-large) | 2.93 GB | 1.0 | 2.4 |
 
 # Usage
 Example usage:
