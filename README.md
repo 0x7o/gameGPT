@@ -5,11 +5,11 @@ Trained ruGPT3 on Russian "Choose Your Own Adventure" stories
 
 [{ HABR }](https://habr.com/ru/post/599715/)[{ DEMO-GAME }](https://gamio.ru)
 
-Version  | Sise |
---- | --- |
-[gameGPT-small](https://huggingface.co/0x7194633/gameGPT-small) | 526 MB | 
-[gameGPT-medium](https://huggingface.co/0x7194633/gameGPT-medium) | 1.42 GB | 
-[gameGPT-large](https://huggingface.co/0x7194633/gameGPT-large) | 2.93 GB | 
+Version  | Sise | Loss | Perplexity |
+--- | --- | --- | --- |
+[gameGPT-small](https://huggingface.co/0x7194633/gameGPT-small) | 526 MB | 5 | 5 |
+[gameGPT-medium](https://huggingface.co/0x7194633/gameGPT-medium) | 1.42 GB | 5 | 5 |
+[gameGPT-large](https://huggingface.co/0x7194633/gameGPT-large) | 2.93 GB | 5 | 5 |
 
 # Usage
 Example usage:
