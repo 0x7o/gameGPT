@@ -17,24 +17,29 @@ Example usage:
 [![Try Model Training In Colab!](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/0x7o/text2keywords/blob/main/example/keyT5_use.ipynb)
 
 ```
-pip install torch numpy transformers
+pip install torch transformers
 ```
 
 ```python
+import torch
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
-model_name = '0x7194633/gameGPT-medium'
+model_name = '0x7194633/gameGPT-large'
 tokenizer = GPT2Tokenizer.from_pretrained(model_name)
-model = GPT2LMHeadModel.from_pretrained(model_name, pad_token_id=tokenizer.eos_token_id)
+model = GPT2LMHeadModel.from_pretrained(model_name)
 
-# Install a Nvidia gpu if necessary
-#model.cuda()
-
+if torch.cuda.is_available():
+  model.cuda()
+  
 def generate(text, **kwargs):
-    input_ids = tokenizer.encode(text, return_tensors='pt')
-    out = model.generate(input_ids, **kwargs)
-    return tokenizer.decode(out[0])
-    
-act = '> Где я нахожусь?'
-print(generate(act, max_length=100, top_p=0.7, temperature=1.0))
+  inpt = tokenizer.encode(text, return_tensors="pt")
+  if torch.cuda.is_available():
+    out = model.generate(inpt.cuda(), **kwargs)
+  else:
+    out = model.generate(inpt, **kwargs)
+  return tokenizer.decode(out[0])
+  
+
+act = "Тест"
+print(generate(act, max_length=500, repetition_penalty=5.0, top_k=5, top_p=0.95, temperature=0.9))
 ```
