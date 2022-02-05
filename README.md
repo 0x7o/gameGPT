@@ -3,7 +3,7 @@
 
 Trained ruGPT3 on Russian "Choose Your Own Adventure" stories
 
-[{ HABR }](https://habr.com/ru/post/599715/)[{ DEMO-GAME }](https://gamio.ru)
+[{ DEMO-GAME }](https://gamio.ru)
 
 Version  | Sise | Loss | Perplexity |
 --- | --- | --- | --- |
@@ -11,8 +11,6 @@ Version  | Sise | Loss | Perplexity |
 
 # Usage
 Example usage:
-
-[![Try Model Training In Colab!](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/0x7o/text2keywords/blob/main/example/keyT5_use.ipynb)
 
 ```
 pip install torch transformers
@@ -22,7 +20,7 @@ pip install torch transformers
 import torch
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
-model_name = '0x7194633/gameGPT-large'
+model_name = '0x7194633/gameGPT'
 tokenizer = GPT2Tokenizer.from_pretrained(model_name)
 model = GPT2LMHeadModel.from_pretrained(model_name)
 
