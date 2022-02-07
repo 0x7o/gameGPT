@@ -5,9 +5,9 @@ Trained ruGPT3 on Russian "Choose Your Own Adventure" stories
 
 [{ DEMO-GAME }](https://gamio.ru)
 
-Version  | Sise | Loss | Perplexity |
---- | --- | --- | --- |
-[gameGPT](https://huggingface.co/0x7194633/gameGPT) | 670 MB | 2.15 | 5.2 |
+Version  | Loss | Perplexity |
+--- | --- | --- |
+[gameGPT](https://huggingface.co/0x7194633/gameGPT) | 0.75 | 2.2 |
 
 # Usage
 Example usage:
