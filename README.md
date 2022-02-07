@@ -1,7 +1,7 @@
 # gameGPT
 [![use.py Test](https://github.com/0x7o/gameGPT/actions/workflows/use_test.yml/badge.svg)](https://github.com/0x7o/gameGPT/actions/workflows/use_test.yml)
 
-Trained ruGPT3 on Russian "Choose Your Own Adventure" stories
+Trained GPT2-XL on Choose Your Own Adventure stories
 
 [{ DEMO-GAME }](https://gamio.ru)
 
@@ -36,6 +36,6 @@ def generate(text, **kwargs):
   return tokenizer.decode(out[0])
   
 
-act = "Тест"
-print(generate(act, max_length=500, repetition_penalty=5.0, top_k=5, top_p=0.95, temperature=0.9))
+act = "Test"
+print(generate(act, max_length=5, repetition_penalty=5.0, top_k=5, top_p=0.95, temperature=0.9))
 ```
