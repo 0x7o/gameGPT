@@ -17,5 +17,5 @@ def generate(text, **kwargs):
   return tokenizer.decode(out[0])
   
 
-act = "Тест"
+act = "Test"
 print(generate(act, max_length=5, repetition_penalty=5.0, top_k=5, top_p=0.95, temperature=0.9))
