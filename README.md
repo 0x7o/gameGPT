@@ -1,3 +1,4 @@
+![Cover](https://0x7o.link/gameGPT/cover.png "Cover")
 # gameGPT
 [![use.py Test](https://github.com/0x7o/gameGPT/actions/workflows/use_test.yml/badge.svg)](https://github.com/0x7o/gameGPT/actions/workflows/use_test.yml)
 
