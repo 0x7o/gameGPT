@@ -2,6 +2,7 @@
 [![use.py Test](https://github.com/0x7o/gameGPT/actions/workflows/use_test.yml/badge.svg)](https://github.com/0x7o/gameGPT/actions/workflows/use_test.yml)
 
 Trained GPT2-XL on Choose Your Own Adventure stories
+[The original, Tensorflow version}(https://github.com/Latitude-Archives/AIDungeon)
 
 [{ DEMO-GAME }](https://gamio.ru)
 
