@@ -3,7 +3,7 @@
 
 Trained GPT2-XL on Choose Your Own Adventure stories
 
-[The original, Tensorflow version](https://github.com/Latitude-Archives/AIDungeon)
+[Original, Tensorflow version](https://github.com/Latitude-Archives/AIDungeon)
 
 [{ DEMO-GAME }](https://gamio.ru)
 
