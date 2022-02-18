@@ -7,9 +7,7 @@ Trained GPT2-XL on Choose Your Own Adventure stories
 
 [{ DEMO-GAME }](https://gamio.ru)
 
-Version  | Loss | Perplexity |
---- | --- | --- |
-[gameGPT](https://huggingface.co/0x7194633/gameGPT) | 0.75 | 2.2 |
+[gameGPT-XL](https://huggingface.co/0x7194633/gameGPT)
 
 # Usage
 Example usage:
