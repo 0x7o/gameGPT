@@ -1,13 +1,11 @@
 ![Cover](https://0x7o.link/gameGPT/cover.png "Cover")
 # gameGPT
 
-Trained GPT2-XL on Choose Your Own Adventure stories
-
-[Original, Tensorflow version](https://github.com/Latitude-Archives/AIDungeon)
+Trained GPT-J, GPT-Neo, GPT2-XL on Choose Your Own Adventure stories
 
 [{ DEMO-GAME }](https://gamio.ru)
 
-[gameGPT-XL](https://huggingface.co/0x7194633/gameGPT)
+[gameGPT](https://huggingface.co/0x7194633/gameGPT)
 
 # Usage
 Example usage:
