@@ -18,4 +18,4 @@ def generate(text, **kwargs):
   
 
 act = "Test"
-print(generate(act, max_length=5, repetition_penalty=5.0, top_k=5, top_p=0.95, temperature=0.9))
+print(generate(act, max_length=100, repetition_penalty=5.0, top_k=5, top_p=0.95, temperature=0.9))
