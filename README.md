@@ -6,6 +6,7 @@ Trained GPT-J, GPT-Neo, GPT2-XL on Choose Your Own Adventure stories
 [{ DEMO-GAME }](https://gamio.ru)
 
 [gameGPT](https://huggingface.co/0x7194633/gameGPT)
+[gameGPT-6B](https://huggingface.co/0x7194633/gameGPT-6B)
 
 # Usage
 Example usage:
