@@ -27,5 +27,6 @@ jobs:
         pip install torch numpy transformers
     - name: Run Tests
       run: |
-        python use.py
+        python use-gpt.py
+        python use-gpt-6b.py
         
