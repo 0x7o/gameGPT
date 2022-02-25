@@ -1,5 +1,5 @@
 import torch
-from from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForCausalLM
 
 model_name = '0x7194633/gameGPT'
 tokenizer = AutoModelForCausalLM.from_pretrained(model_name)
