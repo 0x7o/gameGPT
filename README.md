@@ -1,7 +1,7 @@
 ![Cover](https://0x7o.link/gameGPT/cover.png "Cover")
 # gameGPT
 
-Trained GPT-J, GPT2-XL on Choose Your Own Adventure stories
+Trained Transformers on Choose Your Own Adventure stories
 
 [{ DEMO-GAME }](https://gamio.ru)
 
