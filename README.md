@@ -3,7 +3,7 @@
 
 Trained Transformers on Choose Your Own Adventure stories
 
-[{ DEMO-GAME }](https://gamio.ru)
+[GAME](https://gamio.ru)
 
 [gameGPT](https://huggingface.co/0x7194633/gameGPT)
 
